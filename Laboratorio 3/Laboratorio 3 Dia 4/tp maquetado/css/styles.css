@@ -1,0 +1,15 @@
+header{
+    height: 50%;
+    width: 100%;
+    background-image: url("../img/header.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*background-color: lightgrey;
+    height: 50%;
+    width: 50%;
+    display: block;*/
+    /*opacity: 1;*/
+}

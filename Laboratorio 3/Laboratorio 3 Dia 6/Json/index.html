@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+
+        //JSON.stringify para transformar un objeto JSON a string listo para enviar al servidor
+        //JSON.parse para transformar el string de tipo JSON en un objeto json
+
+        //para crear una peticion por ajax
+
+        // http://192.168.2.103:3000/personas
+
+        var xml = new XMLHttpRequest();
+        xml.open("GET", "http://192.168.2.103:3000/personas", true);
+
+        xml.onreadystatechange = function(){
+            if(xml.readyState === 4 && xml.status === 200){
+                var s = xml.responseText;
+                var lista = JSON.parse(s);
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Lista de personas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/funciones.js"></script>
+    
+
+</head>
+<body>
+
+    <input type="button" id="btnAdd" name="btnAdd" value="Agregar">
+
+    
+    <div id="addForm" name="addForm" class="contenedor">
+            Nombre:<br>
+            <input type="text" id="txtName" name="txtName" placeholder="Ingresar Nombre">
+            <br>
+            Apellido:<br>
+            <input type="text" id="txtLastName" name="txtLastName" placeholder="Ingresar Apellido">
+            <br>
+            Telefono:<br>
+            <input type="number" id="txtPhone" name="txtPhone" placeholder="Ingresar Telefono" >
+            <br>
+            Fecha:<br>
+            <input type="date" id="txtDate" name="txtDate" >
+            <br>
+            <input type="button" id="btnSave" name="btnSave" value="Guardar" >
+            <br>
+            <input type="button" id="btnCancel" name="btnCancel" value="Cancelar" >
+            <br>
+       
+    </div>
+
+    <br>
+
+    <label>Lista de personas</label>
+    <br>
+
+    <table border="1">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Telefono</th>
+            <th>Fecha</th>
+            <th>Accion</th>
+        </thead>
+        <tbody name="tblResult" id="tblResult">
+
+
+
+        </tbody>
+
+    </table>
+
+    
+    
+</body>
+</html>

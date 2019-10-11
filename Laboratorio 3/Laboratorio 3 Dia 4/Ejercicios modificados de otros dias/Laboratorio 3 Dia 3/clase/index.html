@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/funciones.js"></script>
+    
+
+</head>
+<body>
+
+    <input type="button" id="btnAdd" name="btnAdd" value="Agregar">
+
+    
+    <div id="addForm" name="addForm" class="contenedor">
+            Nombre:<br>
+            <input type="text" id="txtName" name="txtName" placeholder="Ingresar Nombre">
+            <br>
+            Apellido:<br>
+            <input type="text" id="txtLastName" name="txtLastName" placeholder="Ingresar Apellido">
+            <br>
+            <input type="button" id="btnSave" name="btnSave" value="Guardar" >
+            <br>
+       
+    </div>
+
+    <br>
+
+    <label>Lista de personas</label>
+    <br>
+
+    <table border="1">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Accion</th>
+        </thead>
+        <tbody name="tblResult" id="tblResult">
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td><a href="" onclick="borrar(event)">Borrar </a> <a href="" onclick="editar(event)">Editar</a></td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+
+    
+    
+</body>
+</html>

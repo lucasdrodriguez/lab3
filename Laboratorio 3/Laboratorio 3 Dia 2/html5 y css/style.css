@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+}
+
+h1,h2{
+    color:yellowgreen;
+}
+
+p{
+    color:red;
+}
+
+p.negrita{
+    font-weight: bold;
+}
+
+.otraClase{
+
+    font-style: italic;
+}
+
+.boton{
+    color: white;
+    background-color: green;
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    margin: 20px;
+    /* El padding es la distancia que hay hacia los bordes pero interno*/
+    /* padding-left: 0px; */
+    cursor: pointer;
+    border: none;
+
+}
+
+.boton:hover{
+
+    background-color: grey;
+}
+
+.botonOk{
+    background-color: red;
+}
+
+.botonError{
+    background-color: blue;  
+}
